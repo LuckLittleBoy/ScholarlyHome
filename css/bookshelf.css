@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0;border:0; background-image:url(../images/wood.jpg);}
+.clearfix{zoom:1;}
+.clearfix:after{ content:","; display:block; visibility:hidden; height:0; clear:both;}
+
+.container{ border:10px #A65300 solid; border-style:ridge; margin-top:30px; padding:5px;}
+	.row{position:relative; margin:50px 0px;}
+li{display:inline-block;}
+.shelf{text-align:center;margin-top:20%;}
+.book-img{position:absolute;z-index:1;left:0;top:0; margin-left:19%;margin-top:48px;}
+.book-img img{width:140px; height:200px; margin-left:30px;}
+.last-img{float:right; background-color:#fff; opacity:0.4;width:140px; height:200px;margin-left:30px;}
+.last-img img{width:96px; height:96px; margin-left:20px; margin-top:50px;}
+.book-setup{ float:right; margin-right:50px; margin-top:30px; background-color:#A65300;}
+.book-setup a{ color:#fff; line-height:30px; padding:0 20px;}
+.book-setup a:hover{ color:#6F3; text-decoration:none;}

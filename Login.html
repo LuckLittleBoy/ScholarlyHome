@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>登录</title>
+<link rel="stylesheet" href="extended/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="extended/Font-Awesome-3.2.1/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+<link rel="stylesheet" type="text/css" href="css/login.css">
+<script language="javascript" src="extended/jquery-3.1.1.min.js"></script>
+<script language="javascript" src="extended/dist/js/bootstrap.min.js"></script>
+<script language="javascript" src="js/mylogin.js"></script>
+<style>
+	.clear{ float:right; display: none; width: 16px; height: 16px; background:url(images/clear16px.png)}
+	.clear{ margin-top:-28px;margin-right:15px;}
+	.clear:hover{background:url(images/delete.png)}
+</style>
+</head>
+<body>
+<div class="htmleaf-container">
+		<div class="demo form-bg" style="padding: 20px 0;">
+		        <div class="container">
+		            <div class="row"> 
+		                <div id="login_form" class="col-md-offset-3 col-md-6">
+		                    <form class="form-horizontal" action="Index.html">
+		                        <span class="heading">用户登录</span>
+		                        <div class="form-group has-error has-feedback">
+                                	<i id="user-i" class="icon-user"></i>
+		                            <input type="text" class="form-control input" id="user_name" placeholder="用户名或电子邮件"      required>
+                                    <a id="username-clear" class="clear"></a>
+		                            
+		                        </div>
+		                        <div class="form-group help has-error has-feedback">
+                                	<i id="psw-i" class="icon-lock"></i>
+		                            <input type="password" class="form-control input" id="password" placeholder="密　码" required>
+                                    <a id="psw-clear" class="clear"></a>
+		                        </div>
+		                        <div class="form-group">
+		                            <div class="main-checkbox">
+		                                <input type="checkbox" value="None" id="checkbox1" name="check"/>
+		                                <label for="checkbox1"></label>
+		                            </div>
+		                            <span class="text">Remember me</span>
+		                            <button type="submit" id="login" class="btn">登录</button>
+		                        </div>
+                                <div class="htmleaf-demo">
+                                	<a href="#">注册</a>
+                                </div>
+		                    </form>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+	</div>
+</body>
+</html>

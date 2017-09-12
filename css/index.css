@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0; border:0; height:100%; width:100%;}
+
+a{display:inline-block;line-height:30px; font-family:"微软雅黑"; text-decoration:none;text-align:center;}
+.clearfix{zoom:1;}
+.clearfix:after{ content:","; display:block; visibility:hidden; height:0; clear:both;}
+
+.body-main{width:1366px;}
+
+.public-top{height:32px; width:100%;border:1px solid #ccc; background-color:#5cb85c; position:fixed;}
+	.public-txt-left{ height:30px; width:11%; float:left;}
+		.public-txt-left a{float:left;width:90px; color:#fff; text-align:right;background:url(../images/home_page.png) no-repeat left center; padding-left 24px;}
+		.public-txt-left a:hover{ text-decoration:none;}
+		
+	.public-txt-right{ width:89%; float:right;}
+		.public-txt-right a{ float:right;display: solid #ccc; width:90px; margin-right:1px; background:#1487BF;color:#fff;}
+		.public-txt-right a:hover{ text-decoration:none;background:#FC8D00;}
+
+		
+/*.public-nav{border:1px blue solid; background:#eee;}*/
+		.container{ margin-top:48px; background:#fff;}
+			.col-md-12{}
